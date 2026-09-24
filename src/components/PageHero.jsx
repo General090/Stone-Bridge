@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function PageHero({
   eyebrow,
   title,
@@ -21,9 +23,9 @@ export default function PageHero({
             {description}
           </p>
 
-          <button className="mt-9 w-fit rounded-md bg-[#d29a2e] px-7 py-4 text-sm font-bold uppercase tracking-wide text-[#061b2d] transition hover:bg-[#e0ad4a]">
+          <Link to="/projects" className="mt-9 w-fit rounded-md bg-[#d29a2e] px-7 py-4 text-sm font-bold uppercase tracking-wide text-[#061b2d] transition hover:bg-[#e0ad4a]">
             {buttonText}
-          </button>
+          </Link>
         </div>
 
         <div className="min-h-75 bg-cover bg-center" style={{ backgroundImage: `url(${image})` }} />
