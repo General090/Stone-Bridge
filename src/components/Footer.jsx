@@ -105,12 +105,12 @@ const Footer = () => {
             Have an infrastructure, energy or investment opportunity?
           </p>
 
-          <a
+          <Link to="/contact"
             href="mailto:info@stonebridgeprojects.com"
             className="mt-6 inline-block border border-[#c9973e] px-5 py-3 text-xs font-bold uppercase tracking-wide text-[#c9973e] transition hover:bg-[#c9973e] hover:text-white"
           >
             Get In Touch →
-          </a>
+          </Link>
         </div>
       </div>
 
