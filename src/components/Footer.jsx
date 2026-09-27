@@ -89,9 +89,11 @@ const Footer = () => {
           <div className="mt-6 space-y-4 text-sm leading-6 text-white/55">
             <p>Lagos, Nigeria</p>
 
-            <p>info@stonebridgeprojects.com</p>
+            <p>info@stonebridgeprojects.ng</p>
 
-            <p>+234 000 000 0000</p>
+            <p>stonebridgeprojectsltd@gmail.com</p>
+
+            <p>+234 803 304 7176</p>
           </div>
         </div>
 
