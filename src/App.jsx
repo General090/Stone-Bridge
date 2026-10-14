@@ -9,6 +9,7 @@ import Insights from "./pages/Insights";
 import ExecutiveTeam from "./pages/ExecutiveTeam";
 import Contact from "./pages/Contact";
 import IkechukwuProfile from "./pages/About/IkechukwuProfile";
+import ChinwenduProfile from "./pages/About/ChinwenduProfile";
 
 export default function App() {
   return (
@@ -19,6 +20,10 @@ export default function App() {
         <Route
           path="/about/executive-team/ikechukwu-ukaegbu"
           element={<IkechukwuProfile />}
+        />
+        <Route
+          path="/about/executive-team/chinwendu-ofulue"
+          element={<ChinwenduProfile />}
         />
         <Route path="/about/executive-team" element={<ExecutiveTeam />} />
         <Route path="/capabilities" element={<Capabilities />} />
