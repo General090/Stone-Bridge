@@ -23,7 +23,7 @@ export default function ChinwenduProfile() {
             <img
               src={MrsOfu}
               alt="Mrs. Chinwe Ofulue"
-              className="h-[360px] w-full object-cover"
+              className="aspect-[3/4] h-full w-full object-cover"
             />
           </div>
 
