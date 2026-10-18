@@ -17,7 +17,7 @@ export default function ChinwenduProfile() {
       <Navbar />
 
       {/* PROFILE HERO */}
-      <section className="bg-[#061b2d] px-5 py-16 text-white sm:px-8 lg:px-12 lg:py-24">
+      <section className="bg-[#f4f1ea] px-5 py-16 text-white sm:px-8 lg:px-12 lg:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-10 md:grid-cols-[320px_1fr] lg:gap-16">
           <div className="overflow-hidden rounded-xl border border-white/10 bg-[#0a2b47]">
             <img
@@ -32,7 +32,7 @@ export default function ChinwenduProfile() {
               Executive Leadership
             </p>
 
-            <h1 className="font-serif text-4xl leading-tight sm:text-5xl md:text-6xl">
+            <h1 className="text-black font-serif text-4xl leading-tight sm:text-5xl md:text-6xl">
               Mrs. Chinwe Ofulue
             </h1>
 
@@ -40,14 +40,14 @@ export default function ChinwenduProfile() {
               Managing Director / CEO
             </p>
 
-            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 lg:text-lg">
+            <p className="mt-6 max-w-2xl text-base text-slate-600 leading-8 lg:text-lg">
               A highly accomplished banking and financial services
               executive with over 35 years of professional experience
               spanning banking, financial services, oil and gas, and
               manufacturing.
             </p>
 
-            <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300">
+            <p className="mt-4 max-w-2xl text-base text-slate-600 leading-8 lg:text-lg">
               Her career is distinguished by progressive leadership,
               strategic business development, innovation, and sustained
               delivery of business results across leading Nigerian
