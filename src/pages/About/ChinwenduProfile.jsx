@@ -65,7 +65,7 @@ export default function ChinwenduProfile() {
       </section>
 
       {/* PROFESSIONAL PROFILE */}
-      <section className="px-5 py-16 sm:px-8 lg:px-12 lg:py-20">
+      <section className="bg-white px-5 py-16 sm:px-8 lg:px-12 lg:py-20">
         <div className="mx-auto max-w-7xl">
           <p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-[#c38b24]">
             Professional Profile
