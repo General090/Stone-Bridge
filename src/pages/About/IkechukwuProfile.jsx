@@ -17,78 +17,78 @@ export default function IkechukwuProfile() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
-    
+
     return (
         <>
             <Navbar />
             {/* Executive Introduction */}
-            
-{/* Executive Introduction */}
-<section className="bg-[#f4f1ea] px-5 py-12 sm:px-8 sm:py-16 lg:px-12 lg:py-24">
-  <div className="mx-auto grid max-w-7xl items-start gap-8 lg:grid-cols-[360px_1fr] lg:gap-16">
 
-    {/* Executive Image and Name */}
-    <div className="min-w-0">
-      <div className="overflow-hidden rounded-xl bg-[#0a2b47] lg:sticky lg:top-28">
-        <img
-          src={IKE}
-          alt="Ikechukwu Emmanuel Ukaegbu"
-          className="block aspect-[3/4] w-full object-cover object-top"
-        />
-      </div>
+            {/* Executive Introduction */}
+            <section className="bg-[#f4f1ea] px-5 py-12 sm:px-8 sm:py-16 lg:px-12 lg:py-24">
+                <div className="mx-auto grid max-w-7xl items-start gap-8 lg:grid-cols-[360px_1fr] lg:gap-16">
 
-      <div className="relative z-10 mt-5 rounded-lg border-l-4 border-[#c38b24] bg-white p-5">
-        <p className="break-words text-base font-bold uppercase leading-snug tracking-wide text-[#102740] sm:text-lg">
-          Ikechukwu Emmanuel Ukaegbu
-        </p>
+                    {/* Executive Image and Name */}
+                    <div className="min-w-0">
+                        <div className="overflow-hidden rounded-xl bg-[#0a2b47] lg:sticky lg:top-28">
+                            <img
+                                src={IKE}
+                                alt="Ikechukwu Emmanuel Ukaegbu"
+                                className="block aspect-[3/4] w-full object-cover object-top"
+                            />
+                        </div>
 
-        <p className="mt-2 text-sm leading-relaxed text-slate-500">
-          Executive Director, Technical Operations &amp; Sustainable Projects
-        </p>
-      </div>
-    </div>
+                        <div className="relative z-10 mt-5 rounded-lg border-l-4 border-[#c38b24] bg-white p-5">
+                            <p className="break-words text-base font-bold uppercase leading-snug tracking-wide text-[#102740] sm:text-lg">
+                                Ikechukwu Emmanuel Ukaegbu
+                            </p>
 
-    {/* Introduction */}
-    <div className="min-w-0">
-      <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#c38b24]">
-        Stonebridge Projects Ltd
-      </p>
+                            <p className="mt-2 text-sm leading-relaxed text-slate-500">
+                                Executive Director, Technical Operations &amp; Sustainable Projects
+                            </p>
+                        </div>
+                    </div>
 
-      <h1 className="mt-4 break-words font-serif text-3xl leading-tight text-[#102740] sm:text-4xl md:text-5xl">
-        Climate Policy • Infrastructure • Energy • Public Governance
-      </h1>
+                    {/* Introduction */}
+                    <div className="min-w-0">
+                        <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#c38b24]">
+                            Stonebridge Projects Ltd
+                        </p>
 
-      <div className="mt-8 space-y-6 text-base leading-8 text-slate-600 lg:text-lg">
-        <p>
-          Ikechukwu Emmanuel Ukaegbu is a senior climate-policy,
-          infrastructure and environmental-governance professional with
-          more than three decades of progressive experience, including
-          over 23 years in senior public-sector administration. At
-          Stonebridge Projects Ltd, he serves as Executive Director,
-          Technical Operations &amp; Sustainable Projects, where he
-          contributes technical leadership across infrastructure
-          development, energy transition, climate finance, carbon
-          markets, environmental governance and sustainable project
-          delivery.
-        </p>
+                        <h1 className="mt-4 break-words font-serif text-3xl leading-tight text-[#102740] sm:text-4xl md:text-5xl">
+                            Climate Policy • Infrastructure • Energy • Public Governance
+                        </h1>
 
-        <p>
-          His professional career has been defined by the intersection
-          of public policy, technical implementation and complex
-          development programmes. He has led multidisciplinary teams,
-          coordinated large-scale programmes, advised on climate and
-          environmental frameworks, and worked across government,
-          technical, development and private-sector environments. This
-          combination gives him a distinctive perspective on the
-          practical realities that determine whether major projects can
-          move from policy ambition and technical conception to
-          bankability, implementation and lasting operational value.
-        </p>
-      </div>
-    </div>
+                        <div className="mt-8 space-y-6 text-base leading-8 text-slate-600 lg:text-lg">
+                            <p>
+                                Ikechukwu Emmanuel Ukaegbu is a senior climate-policy,
+                                infrastructure and environmental-governance professional with
+                                more than three decades of progressive experience, including
+                                over 23 years in senior public-sector administration. At
+                                Stonebridge Projects Ltd, he serves as Executive Director,
+                                Technical Operations &amp; Sustainable Projects, where he
+                                contributes technical leadership across infrastructure
+                                development, energy transition, climate finance, carbon
+                                markets, environmental governance and sustainable project
+                                delivery.
+                            </p>
 
-  </div>
-</section>
+                            <p>
+                                His professional career has been defined by the intersection
+                                of public policy, technical implementation and complex
+                                development programmes. He has led multidisciplinary teams,
+                                coordinated large-scale programmes, advised on climate and
+                                environmental frameworks, and worked across government,
+                                technical, development and private-sector environments. This
+                                combination gives him a distinctive perspective on the
+                                practical realities that determine whether major projects can
+                                move from policy ambition and technical conception to
+                                bankability, implementation and lasting operational value.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
 
 
             {/* Programme Delivery */}
